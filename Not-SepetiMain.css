@@ -1,0 +1,97 @@
+ *{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+ }
+body{
+    background-image: linear-gradient(#FEA47F,#FD7272);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Lobster', cursive;
+ }
+ .main-title{
+     font-size: 10rem;
+ }
+ .header,
+ .gorev-form{
+     min-height: 20vh;
+     margin: 1rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ .input-gorev{
+     font-size: 2rem;
+     margin-left: 3rem;
+ }
+ .form-item{
+     padding: 0.5rem;
+     font-size: 2rem;
+     font-family: 'Lobster', cursive;
+     border: none;
+     outline: none;
+     
+ }
+ .btn-gorev-ekle{
+     cursor: pointer;
+     color: #F97F51;
+ }
+
+
+ 
+ .btn-gorev-ekle:hover{
+     color: white;
+     background-color: black;
+     border: 1px white solid;
+     transition: 3s; /*siyaha dönme hızı */
+
+ }
+ .gorev-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .gorev-listesi{
+     list-style: none;
+ }
+ .gorev-item{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+     margin: 1rem;
+     font-size: 1.5rem;
+     background-color: rgb(170, 182, 192);
+     transition: 0.5 ease-in-out;
+ }
+ .gorev-item:hover{
+    background-color: black;
+    color: white;
+    transition: 3s;
+ }
+.gorev-tanimi{
+    flex:1;
+    padding: 0.5rem;
+    margin-right: 5rem;
+}
+
+.gorev-btn{
+    outline:none;
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    margin-left: 0.7rem;
+   
+}
+.gorev-btn:hover{
+    background-color: black;
+    color:#F97F51 ;
+    transition: 3s;
+    border: 1px solid #F97F51 ;
+    cursor: pointer;
+}
+.gorev-tamamlandi{
+    text-decoration: line-through;
+    opacity: 0.7;
+    
+}
